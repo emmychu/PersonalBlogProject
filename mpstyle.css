@@ -1,0 +1,90 @@
+@import "mpmin900px.css" screen and (min-width: 901px);
+@import "mp600-900px.css" screen and (min-width: 601px) and (max-width: 900px);
+@import "mp320px.css" screen and (max-width:320px);
+@import "mpstyle320-600px.css" screen and (min-width:321px) and (max-width:600px);
+@import "mpbodystyle.css";
+/* Display for max width 320px screen */
+@media (max-width: 320px){
+    .container{
+        display:grid;
+        grid-template-rows:minmax(4,auto);
+        grid-template-areas:
+        "header"
+        "nav"
+        "img"
+        "bpc1"
+        "bpc2"
+        "ftr";
+    }
+    #navigation{
+        grid-area:nav;
+        background-color: rgb(198, 198, 245);
+        display:flex;
+        flex-direction:row;
+        max-width:auto;
+    }
+}
+@media (min-width: 320px) and (max-width: 601px){
+    .container{
+        display:grid;
+        grid-template-rows:minmax(4,auto);
+        grid-template-areas:
+        "header"
+        "nav"
+        "img"
+        "bpc1"
+        "bpc2"
+        "ftr";
+    }
+    #navigation{
+        grid-area:nav;
+        background-color: rgb(198, 198, 245);
+        display:flex;
+        flex-direction:row;
+        max-width:auto;
+    }
+}    
+/* Display for 600px - 900px screen*/
+@media (min-width:600px) and (max-width: 900px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows:minmax(4,auto);
+        grid-template-areas:
+        "header header header header header"
+        "nav bpc bpc bpc bpc"
+        "nav img img img img"
+        "ftr ftr ftr ftr ftr";
+    }
+    
+    #navigation{
+        grid-area:nav;
+        background-color: rgb(198, 198, 245);
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        padding:50px;
+    }
+}
+/* Display for 900px and above screen*/
+@media (min-width:901px){
+    .container{
+        display:grid;
+        grid-template-columns: repeat(3,auto);
+        grid-template-rows:minmax(4,auto);
+        grid-template-areas:
+        "header header header header header"
+        "nav bpc bpc bpc bpc"
+        "nav img img img img"
+        "ftr ftr ftr ftr ftr";
+    }
+    
+    #navigation{
+        grid-area:nav;
+        background-color: rgb(198, 198, 245);
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        padding:50px;
+    }
+}

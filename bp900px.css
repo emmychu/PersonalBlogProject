@@ -1,0 +1,13 @@
+/* for media query 800px+ */
+textarea{
+    resize: none;
+    height:200px;
+    width:500px;
+}
+
+#blogpost{
+    grid-area: bpc;
+    min-height:650px;
+    height:auto;
+    min-width:1400px;
+}
