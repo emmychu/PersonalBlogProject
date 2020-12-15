@@ -8,7 +8,7 @@ textarea{
 
 .about{
     font-family: 'EB Garamond', serif;
-    max-width:auto;
+    max-width:100%;
     text-align:center;
     padding:10px;
 }

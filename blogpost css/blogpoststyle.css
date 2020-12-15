@@ -60,7 +60,6 @@
         display:flex;
         flex-direction: row;
         background-color: var(--side-color);
-        max-width:300px;
     }  
 }
 @media(min-width:901px){
@@ -79,5 +78,6 @@
         display:flex;
         flex-direction: column;
         background-color: var(--side-color);
+        max-width:400px;
     }  
 }
