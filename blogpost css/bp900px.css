@@ -7,15 +7,15 @@ textarea{
 }
 
 .about{
-
     font-family: 'EB Garamond', serif;
-    max-width:300px;
+    max-width:auto;
     text-align:center;
 }
 
 #blogpost{
     grid-area: bpc;
     min-height:650px;
+    min-width:1000px;
     height:auto;
-    width:auto;
+    max-width:auto;
 }

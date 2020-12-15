@@ -42,6 +42,7 @@ a:hover{
     font-family: 'Fjalla One', sans-serif;
     padding: 10px;
     font-size:20px;
+    max-width:300px;
 }
 .about{
     grid-area: abt;

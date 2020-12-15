@@ -10,6 +10,7 @@ textarea{
     font-family: 'EB Garamond', serif;
     max-width:auto;
     text-align:center;
+    padding:10px;
 }
 
 #blogpost{
