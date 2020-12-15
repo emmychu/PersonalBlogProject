@@ -15,7 +15,6 @@ textarea{
 #blogpost{
     grid-area: bpc;
     min-height:650px;
-    min-width:1000px;
     height:auto;
     max-width:100%
 }
