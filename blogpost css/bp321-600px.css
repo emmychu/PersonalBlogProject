@@ -6,14 +6,10 @@ textarea{
     width:300px;
     overflow:visible;
 }
-
 .about{
     font-family: 'EB Garamond', serif;
     max-width:100%;
-    text-align:center;
-    padding:10px;
 }
-
 #blogpost{
     grid-area: bpc;
     min-height:500px;

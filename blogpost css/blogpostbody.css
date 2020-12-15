@@ -59,7 +59,6 @@
         grid-area: abt;
         background-color:var(--side-color);
         opacity: 75%;
-        padding:20px;
     }
     .aboutbox{
         display: flex;
@@ -88,14 +87,14 @@
     #aboutimg{
         max-height: 200px;
         width:auto;
-        padding-bottom:10px;
+        padding-bottom:5px;
     }
     #aboutme{
         max-width:auto;
-        padding-top:5px;
+        text-align:center;
+        padding-top:2px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 5px;
     }
     #aboutheader{
         font-size:30px;
