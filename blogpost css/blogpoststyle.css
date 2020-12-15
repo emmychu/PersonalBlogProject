@@ -56,6 +56,7 @@
         background-color: var(--side-color);
     }  
 }
+
 @media(min-width:901px){
     .container{
         display:grid;

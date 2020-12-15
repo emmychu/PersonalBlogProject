@@ -1,10 +1,12 @@
 /* for media query 800px+ */
+
 textarea{
     resize: none;
     height:200px;
     width:auto;
     overflow:visible;
 }
+
 .about{
     font-family: 'EB Garamond', serif;
     text-align:center;

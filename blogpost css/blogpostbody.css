@@ -1,113 +1,105 @@
 /* This file is for attributes that remain the same regardless of screen size */
 
 /* Elements */
-:root{
-    --side-color:rgb(198, 198, 245);
-}
-
-body{
-    background-image:url("../Images/h9U5Bb.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-article{
-    font-family: 'EB Garamond', serif;
-    padding: 20px;
-    width:auto;
-}
-p{
-    font-size:20px;
-    opacity:100%;
-}
-a{
-    color:rgb(0, 54, 54);
-}
-a:hover{
-    color: green;
-}
+    :root{
+        --side-color:rgb(198, 198, 245);
+    }
+    body{
+        background-image:url("../Images/h9U5Bb.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    article{
+        font-family: 'EB Garamond', serif;
+        padding: 20px;
+        width:auto;
+    }
+    p{
+        font-size:20px;
+        opacity:100%;
+    }
+    a{
+        color:rgb(0, 54, 54);
+    }
+    a:hover{
+        color: green;
+    }
+    footer{
+        opacity:100%;
+        grid-area: ftr;
+        display:flex;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
 
 /* Classes */
+    .box{
+        background-color: lavender;
+        opacity: 75%;
+        padding: 20px;
+    }
+    .box:hover, .about:hover{
+        opacity: 90%;
+    }
 
-.box{
-    background-color: lavender;
-    opacity: 75%;
-    padding: 20px;
-}
-.box:hover, .about:hover{
-    opacity: 90%;
-}
-
-.navlinks{
-    font-family: 'Fjalla One', sans-serif;
-    padding: 10px;
-    font-size:20px;
-}
-.about{
-    grid-area: abt;
-    background-color:var(--side-color);
-    opacity: 75%;
-    padding:20px;
-}
-.aboutbox{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.logo{
-    align-items: center;
-    max-height: 50px;
-    width:auto;
-    padding: 5px;
-}
+    .navlinks{
+        font-family: 'Fjalla One', sans-serif;
+        padding: 10px;
+        font-size:20px;
+    }
+    .about{
+        grid-area: abt;
+        background-color:var(--side-color);
+        opacity: 75%;
+        padding:20px;
+    }
+    .aboutbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        align-items: center;
+        max-height: 50px;
+        width:auto;
+        padding: 5px;
+    }
 
 /* IDs */
-
-#header{
-    opacity:100%;
-    grid-area: header;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size:35px;
-    padding:0px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    text-align:center;
-    background-color: rgb(217, 243, 231);
-}
-
-#footer{
-    opacity:100%;
-    grid-area: ftr;
-    display:flex;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-#aboutimg{
-    max-height: 200px;
-    width:auto;
-    padding-bottom:10px;
-}
-#aboutme{
-    max-width:auto;
-    padding-top:5px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-}
-#aboutheader{
-    font-size:30px;
-}
-#submission{
-    padding:20px;
-}
-#gingerbread{
-    max-height:300px;
-    width:auto;
-    padding:20px;
-}
-
-#text{
-    padding-left:30px;
-}
+    #header{
+        opacity:100%;
+        grid-area: header;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size:35px;
+        padding:0px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        text-align:center;
+        background-color: rgb(217, 243, 231);
+    }
+    #aboutimg{
+        max-height: 200px;
+        width:auto;
+        padding-bottom:10px;
+    }
+    #aboutme{
+        max-width:auto;
+        padding-top:5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+    }
+    #aboutheader{
+        font-size:30px;
+    }
+    #submission{
+        padding:20px;
+    }
+    #gingerbread{
+        max-height:300px;
+        width:auto;
+        padding:20px;
+    }

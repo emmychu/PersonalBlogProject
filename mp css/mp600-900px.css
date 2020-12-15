@@ -1,4 +1,6 @@
 /* for media query 601 - 900px */
+
+/* Classes */
 .card{
     grid-area: bpc;
     min-height:300px;
@@ -11,6 +13,19 @@
     display:grid;
     grid-template-columns: 50% 50%;
     grid-gap:5px;
+}
+
+/* IDs */
+#header{
+    opacity: 100%;
+    grid-area: header;
+    background-color:var(--head-color);
+    padding:0px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size:40px;
+    text-align:center;
 }
 #card1{
     margin:1px;
@@ -30,7 +45,7 @@
     grid-area: head;
     text-align: center;
     font-family: 'Julius Sans One', sans-serif;
-    font-size:40px;
+    font-size:30px;
 }
 #img-gal{
     grid-area:img;
@@ -81,14 +96,3 @@
     border-bottom-left-radius: 25px;
 }
 
-#header{
-    opacity: 100%;
-    grid-area: header;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size:40px;
-    padding:0px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    text-align:center;
-    background-color:var(--head-color);
-}
