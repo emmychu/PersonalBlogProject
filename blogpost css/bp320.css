@@ -3,13 +3,13 @@
 textarea{
     resize: none;
     height:200px;
-    width:400px;
+    width:300px;
     overflow:visible;
 }
 
 .about{
     font-family: 'EB Garamond', serif;
-    max-width:auto;
+    width:auto;
     text-align:center;
 }
 

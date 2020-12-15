@@ -25,6 +25,11 @@
     a:hover{
         color: green;
     }
+    figcaption{
+        font-family: 'EB Garamond', serif;
+        padding-top:0;
+        padding-left: 30px;
+    }
     footer{
         opacity:100%;
         grid-area: ftr;
@@ -102,4 +107,7 @@
         max-height:300px;
         width:auto;
         padding:20px;
+    }
+    #submission{
+        font-family: 'EB Garamond', serif;
     }
