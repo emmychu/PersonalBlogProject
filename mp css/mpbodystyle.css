@@ -1,14 +1,25 @@
 /* This file is for attributes that remain the same regardless of screen size */
 /* Elements */
+:root{
+    --nav-color:rgb(198, 198, 245);
+    --head-color:rgb(217, 243, 231);
+    --image1:url("../Images/Sunflowers.jpg");
+    --image2:url("../Images/ipomoea-tricolor-heavenly-blue-blue-flowers-shutterstock-com_12777.jpg");
+    --image3:url("../Images/unnamed.jpg");
+    --image4:url("../Images/41359Echinacea1948_1250x445-2.png");
+}
+
 body{
     background-image:url("../Images/h9U5Bb.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
 }
+
 a{
     color:rgb(0, 54, 54);
 }
+
 a:hover{
     color:forestgreen;
 }
@@ -21,6 +32,7 @@ article{
 ul, li{
     text-align:center;
 }
+
 /* Classes */
 .box{
     background-color: lavender;
@@ -47,12 +59,12 @@ opacity: 90%;
 .mini-header{
 padding-bottom: 0px
 }
-/* IDs */
 
+/* IDs */
 #footer{
     grid-area: ftr;
     display:flex;
+    justify-content: flex-end;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
-    justify-content: flex-end;
 }

@@ -1,8 +1,9 @@
+@import "mpbodystyle.css";
 @import "mpmin900px.css" screen and (min-width: 901px);
 @import "mp600-900px.css" screen and (min-width: 601px) and (max-width: 900px);
 @import "mp320px.css" screen and (max-width:320px);
 @import "mpstyle320-600px.css" screen and (min-width:321px) and (max-width:600px);
-@import "mpbodystyle.css";
+
 /* Display for max width 320px screen */
 @media (max-width: 320px){
     .container{
@@ -18,7 +19,7 @@
     }
     #navigation{
         grid-area:nav;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--nav-color);
         display:flex;
         flex-direction:row;
         max-width:auto;
@@ -38,7 +39,7 @@
     }
     #navigation{
         grid-area:nav;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--nav-color);
         display:flex;
         flex-direction:row;
         max-width:auto;
@@ -60,7 +61,7 @@
     
     #navigation{
         grid-area:nav;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--nav-color);
         height:auto;
         display:flex;
         flex-direction: row;
@@ -73,15 +74,15 @@
         grid-template-columns: repeat(3,auto);
         grid-template-rows:minmax(4,auto);
         grid-template-areas:
-        "header header header header header"
-        "nav bpc bpc bpc bpc"
-        "nav img img img img"
-        "ftr ftr ftr ftr ftr";
+        "header header header header"
+        "nav bpc bpc bpc"
+        "nav img img img"
+        "ftr ftr ftr ftr";
     }
     
     #navigation{
         grid-area:nav;
-        background-color: rgb(198, 198, 245);
+        background-color:var(--nav-color);
         height:auto;
         display:flex;
         flex-direction: column;

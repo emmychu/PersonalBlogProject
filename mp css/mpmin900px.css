@@ -10,7 +10,7 @@
     margin:1px;
     display:grid;
     grid-template-columns: 50% 50%;
-    grid-gap:5px;
+    grid-gap:20px;
 }
 #card1{
     margin:1px;
@@ -19,6 +19,13 @@
     max-height:500px;
 }
 #card2{
+    margin:1px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px 0;
+    max-height:500px;
+}
+
+#card3{
     margin:1px;
     border-radius: 10px;
     box-shadow:0 4px 8px 0;
@@ -53,30 +60,31 @@
     grid-gap: 5px;
 }
 #photo1{
-    background-image:url("../images/Sunflowers.jpg");
+    background-image:var(--image1);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo2{
-    background-image:url("../images/ipomoea-tricolor-heavenly-blue-blue-flowers-shutterstock-com_12777.jpg");
+    background-image:var(--image2);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo3{
-    background-image:url("../images/unnamed.jpg");
+    background-image:var(--image3);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo4{
-    background-image:url("../images/41359Echinacea1948_1250x445-2.png");
+    background-image:var(--image4);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #footer{
+    opacity:100%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
 }
@@ -90,5 +98,5 @@
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     text-align:center;
-    background-color: rgb(217, 243, 231);
+    background-color: var(--head-color);
 }

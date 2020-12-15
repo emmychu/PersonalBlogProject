@@ -20,7 +20,7 @@
         grid-area:nav;
         display:flex;
         flex-direction: row;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--side-color);
     }
 }
 
@@ -40,7 +40,7 @@
         grid-area:nav;
         display:flex;
         flex-direction: row;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--side-color);
     }
 }
 
@@ -59,7 +59,7 @@
         grid-area:nav;
         display:flex;
         flex-direction: row;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--side-color);
     }  
 }
 @media(min-width:901px){
@@ -77,7 +77,7 @@
         grid-area:nav;
         display:flex;
         flex-direction: column;
-        background-color: rgb(198, 198, 245);
+        background-color: var(--side-color);
         max-width:300px;
     }  
 }

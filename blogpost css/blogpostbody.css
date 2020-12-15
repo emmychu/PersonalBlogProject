@@ -1,6 +1,9 @@
 /* This file is for attributes that remain the same regardless of screen size */
 
 /* Elements */
+:root{
+    --side-color:rgb(198, 198, 245);
+}
 
 body{
     background-image:url("../images/h9U5Bb.jpg");
@@ -42,7 +45,7 @@ a:hover{
 }
 .about{
     grid-area: abt;
-    background-color: rgb(198, 198, 245);
+    background-color:var(--side-color);
     opacity: 75%;
 }
 .aboutbox{
@@ -63,7 +66,7 @@ a:hover{
     opacity:100%;
     grid-area: header;
     font-family: 'Julius Sans One', sans-serif;
-    font-size:40px;
+    font-size:35px;
     padding:0px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -72,6 +75,7 @@ a:hover{
 }
 
 #footer{
+    opacity:100%;
     grid-area: ftr;
     display:flex;
     border-bottom-right-radius: 25px;

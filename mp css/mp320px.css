@@ -53,25 +53,25 @@
 }
 
 #photo1{
-    background-image:url("../Images/Sunflowers.jpg");
+    background-image:var(--image1);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo2{
-    background-image:url("../Images/ipomoea-tricolor-heavenly-blue-blue-flowers-shutterstock-com_12777.jpg");
+    background-image:var(--image2);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo3{
-    background-image:url("../Images/unnamed.jpg");
+    background-image:var(--image3);
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo4{
-    background-image:url("../Images/41359Echinacea1948_1250x445-2.png");
+    background-image:var(--image4);
     background-size: cover;
     max-width: 100%;
     height:auto;
@@ -86,5 +86,11 @@
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     text-align:center;
-    background-color: rgb(217, 243, 231);
+    background-color: var(--head-color);
+}
+
+#footer{
+    opacity:100%;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
