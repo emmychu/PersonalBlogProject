@@ -2,12 +2,19 @@
 textarea{
     resize: none;
     height:200px;
-    width:500px;
+    width:auto;
+    overflow:visible;
+}
+.about{
+    font-family: 'EB Garamond', serif;
+    max-width:300px;
+    text-align:center;
 }
 
 #blogpost{
     grid-area: bpc;
     min-height:650px;
     height:auto;
-    min-width:1400px;
+    width:auto;
 }
+

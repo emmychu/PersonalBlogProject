@@ -3,7 +3,7 @@
 /* Elements */
 
 body{
-    background-image:url("h9U5Bb.jpg");
+    background-image:url("../images/h9U5Bb.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -17,7 +17,9 @@ p{
     font-size:20px;
     opacity:100%;
 }
-
+a{
+    color:rgb(0, 54, 54);
+}
 a:hover{
     color: green;
 }
@@ -38,16 +40,11 @@ a:hover{
     padding: 10px;
     font-size:20px;
 }
-
 .about{
     grid-area: abt;
     background-color: rgb(198, 198, 245);
     opacity: 75%;
-    font-family: 'EB Garamond', serif;
-    width:auto;
-    text-align:center;
 }
-
 .aboutbox{
     display: flex;
     flex-direction: column;
@@ -59,9 +56,11 @@ a:hover{
     width:auto;
     padding: 5px;
 }
+
 /* IDs */
 
 #header{
+    opacity:100%;
     grid-area: header;
     font-family: 'Julius Sans One', sans-serif;
     font-size:40px;

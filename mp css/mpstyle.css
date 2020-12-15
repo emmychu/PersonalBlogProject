@@ -52,8 +52,9 @@
         grid-template-rows:minmax(4,auto);
         grid-template-areas:
         "header header header header header"
-        "nav bpc bpc bpc bpc"
-        "nav img img img img"
+        "nav nav nav nav nav"
+        "bpc bpc bpc bpc bpc"
+        "img img img img img"
         "ftr ftr ftr ftr ftr";
     }
     
@@ -62,8 +63,7 @@
         background-color: rgb(198, 198, 245);
         height:auto;
         display:flex;
-        flex-direction: column;
-        padding:50px;
+        flex-direction: row;
     }
 }
 /* Display for 900px and above screen*/

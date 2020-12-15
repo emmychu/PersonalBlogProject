@@ -4,8 +4,13 @@ textarea{
     resize: none;
     height:200px;
     width:400px;
+    overflow:visible;
 }
-
+.about{
+    font-family: 'EB Garamond', serif;
+    max-width:auto;
+    text-align:center;
+}
 #blogpost{
     grid-area: bpc;
     min-height:500px;

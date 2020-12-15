@@ -1,10 +1,13 @@
 /* This file is for attributes that remain the same regardless of screen size */
 /* Elements */
 body{
-    background-image:url("h9U5Bb.jpg");
+    background-image:url("../Images/h9U5Bb.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
+}
+a{
+    color:rgb(0, 54, 54);
 }
 a:hover{
     color:forestgreen;

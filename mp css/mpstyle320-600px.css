@@ -1,4 +1,4 @@
-/* for media query <320px */
+/* for media query 320px-600px */
 .card{
     min-height:300px;
     width:auto;
@@ -52,31 +52,32 @@
 }
 
 #photo1{
-    background-image:url("Sunflowers.jpg");
+    background-image:url("../images/Sunflowers.jpg");
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo2{
-    background-image:url("ipomoea-tricolor-heavenly-blue-blue-flowers-shutterstock-com_12777.jpg");
+    background-image:url("../images/ipomoea-tricolor-heavenly-blue-blue-flowers-shutterstock-com_12777.jpg");
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo3{
-    background-image:url("unnamed.jpg");
+    background-image:url("../images/unnamed.jpg");
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 #photo4{
-    background-image:url("41359Echinacea1948_1250x445-2.png");
+    background-image:url("../images/41359Echinacea1948_1250x445-2.png");
     background-size: cover;
     max-width: 100%;
     height:auto;
 }
 
 #header{
+    opacity: 100%;
     grid-area: header;
     font-family: 'Julius Sans One', sans-serif;
     font-size:30px;

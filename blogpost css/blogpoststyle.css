@@ -51,14 +51,14 @@
         grid-template-rows:minmax(4,auto);
         grid-template-areas:
         "header header header header header header"
-        "nav bpc bpc bpc bpc bpc"
+        "nav nav nav nav nav nav"
         "abt bpc bpc bpc bpc bpc"
         "ftr ftr ftr ftr ftr ftr";    
     }
     #navigation{
         grid-area:nav;
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         background-color: rgb(198, 198, 245);
     }  
 }
@@ -78,6 +78,6 @@
         display:flex;
         flex-direction: column;
         background-color: rgb(198, 198, 245);
-        min-width:300px;
+        max-width:300px;
     }  
 }
