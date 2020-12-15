@@ -103,6 +103,11 @@ a:hover{
     padding:20px;
 }
 #gingerbread{
-    max-height:400px;
+    max-height:300px;
     width:auto;
+    padding:20px;
+}
+
+#text{
+    padding-left:30px;
 }
